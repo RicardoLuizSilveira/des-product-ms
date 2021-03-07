@@ -85,4 +85,3 @@ In this package you have the postman collection, application jar file, and a run
 - Expand exception treatment
 - Performance improvements
 - Build and deploy Docker image on DockerHub
-- 
