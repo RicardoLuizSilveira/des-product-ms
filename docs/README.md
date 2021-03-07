@@ -26,7 +26,7 @@ There are three easy ways to run the application.
 If you see this
 <a href="https://des-product-ms.herokuapp.com/swagger-ui/#/product-controller" target="_blank">swagger documentation</a> 
 it means that the application is already running.
-- Just [download our postman collection](../others/ProductAPI.postman_collection.json)
+- Just [download our postman collection](#postman)
 - Configure the `baseUrl` variable as `https://des-product-ms.herokuapp.com`
 - Start your tests 
 
@@ -46,7 +46,7 @@ and to run
 docker run -it --rm -p9999:9999 --name ms-product ricardosilveira/des-product-ms:1.0.0
 ```
 then
-- Just [download our postman collection](../others/ProductAPI.postman_collection.json)
+- Just [download our postman collection](#postman)
 - Configure the `baseUrl` variable as `http://localhost:9999`
 - Start your tests
 
@@ -74,7 +74,7 @@ In this package you have the postman collection, application jar file, and a run
 
 ## Postman
 
-[Download postman collection](../others/ProductAPI.postman_collection.json)
+[Download postman collection](https://github.com/RicardoLuizSilveira/des-product-ms/blob/main/others/ProductAPI.postman_collection.json)
 
 ------
 ## Comming soon
