@@ -74,8 +74,8 @@ In this package you have the postman collection, application jar file, and a run
 
 ## Postman collection
 Here you can find and 
-<a href="https://github.com/RicardoLuizSilveira/des-product-ms/blob/main/others/ProductAPI.postman_collection.json">download our postman collection</a>.
-------
+<a href="https://github.com/RicardoLuizSilveira/des-product-ms/blob/main/others/ProductAPI.postman_collection.json" target="_blank">download our postman collection</a>.
+
 ## Comming soon
 - Sonar Cloud integration
   - bugs
