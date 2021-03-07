@@ -5,7 +5,7 @@
 This is a **Spring Boot Application** that provides a bunch or endpoints to manage a product inventory.
 
 
-| Verbo HTTP  |  Resource path    |           DescriÃ§Ã£o           |
+| HTTP verb  |  Resource path    |           Description           |
 |-------------|:-----------------:|------------------------------:|
 | POST        |  /products        |   Create a product       |
 | PUT         |  /products/{id}   |   Update a product   |
@@ -26,7 +26,7 @@ There are three easy ways to run the application.
 If you see this
 <a href="https://des-product-ms.herokuapp.com/swagger-ui/#/product-controller" target="_blank">swagger documentation</a> 
 it means that the application is already running.
-- Just [download our postman collection](#postman)
+- Just [download our postman collection](#postman-collection)
 - Configure the `baseUrl` variable as `https://des-product-ms.herokuapp.com`
 - Start your tests 
 
@@ -46,7 +46,7 @@ and to run
 docker run -it --rm -p9999:9999 --name ms-product ricardosilveira/des-product-ms:1.0.0
 ```
 then
-- Just [download our postman collection](#postman)
+- Just [download our postman collection](#postman-collection)
 - Configure the `baseUrl` variable as `http://localhost:9999`
 - Start your tests
 
@@ -72,10 +72,9 @@ In this package you have the postman collection, application jar file, and a run
 
 ![alt text](./images/pipeline-CI-CD.png "Development and CI/CD pipeline")
 
-## Postman
-
-[Download postman collection](https://github.com/RicardoLuizSilveira/des-product-ms/blob/main/others/ProductAPI.postman_collection.json)
-
+## Postman collection
+Here you can find and 
+<a href="https://github.com/RicardoLuizSilveira/des-product-ms/blob/main/others/ProductAPI.postman_collection.json">download our postman collection</a>.
 ------
 ## Comming soon
 - Sonar Cloud integration
