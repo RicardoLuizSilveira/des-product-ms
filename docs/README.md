@@ -70,7 +70,7 @@ In this package you have the postman collection, application jar file, and a run
 - CI/CD powered by **TravisCI + Heroku**
 - Docker Image manually created *(just for now)*, with Spring Boot itself and pushed to DockerHub. 
 
-<div style="text-align:center"><img src="https://github.com/RicardoLuizSilveira/des-product-ms/tree/main/docs/images/pipeline-CI-CD.png" /></div>
+![alt text](./images/pipeline-CI-CD.png "Development and CI/CD pipeline")
 
 ## Postman
 
