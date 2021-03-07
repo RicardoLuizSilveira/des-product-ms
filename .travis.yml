@@ -5,5 +5,4 @@ deploy:
   provider: heroku
   api_key: $SECURE_KEY
   app: $APP
-  on:
-    all_branches: true
+  on: main
