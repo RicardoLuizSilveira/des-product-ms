@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "b40464a4-6a42-4fb7-aaab-bb35a690742d",
+		"name": "ProductAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\n    \"name\": \"name 10\",\n    \"description\": \"description 10\",\n    \"price\": 10\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/products",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products"
+					]
+				},
+				"description": "Create a new product"
+			},
+			"response": []
+		},
+		{
+			"name": "Find Product by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/products/07cbdc2c-3d9d-4f9c-a11a-dcc8b94561b8",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products",
+						"07cbdc2c-3d9d-4f9c-a11a-dcc8b94561b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find all Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/products",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/products/07cbdc2c-3d9d-4f9c-a11a-dcc8b94561b8",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products",
+						"07cbdc2c-3d9d-4f9c-a11a-dcc8b94561b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\n    \"name\": \"updated name\",\n    \"description\": \"updated description\",\n    \"price\": 11\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/products/e4a2f677-1835-4776-8a78-6ecdede5feeh",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products",
+						"e4a2f677-1835-4776-8a78-6ecdede5feeh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Super search Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/products/search?q=caramba&min_price=5&max_price=100",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"products",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "caramba"
+						},
+						{
+							"key": "min_price",
+							"value": "5"
+						},
+						{
+							"key": "max_price",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
