@@ -3,8 +3,7 @@ jdk:
   - openjdk11
 deploy:
   provider: heroku
-  api_key:
-    secure: $SECURE_KEY
+  api_key: $SECURE_KEY
   app: $APP
   on:
     all_branches: true
