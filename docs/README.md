@@ -9,7 +9,7 @@ This is a **Spring Boot Application** that provides a bunch or endpoints to mana
 |-------------|:-----------------:|------------------------------:|
 | POST        |  /products        |   Create a product       |
 | PUT         |  /products/{id}   |   Update a product   |
-| GET         |  /products/{id}   |   Find a produto by ID  |
+| GET         |  /products/{id}   |   Find a product by ID  |
 | GET         |  /products        |   List all available products           |
 | GET         |  /products/search |   Find a specific product |
 | DELETE      |  /products/{id}   |   Delete a product       |
