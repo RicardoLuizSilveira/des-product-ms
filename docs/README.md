@@ -83,10 +83,8 @@ Here you can find and
 <a href="https://github.com/RicardoLuizSilveira/des-product-ms/blob/main/others/ProductAPI.postman_collection.json" target="_blank">download our postman collection</a>.
 
 ## Comming soon
-- Sonar Cloud integration
-  - bugs
-  - test coverage
 - Expand tests
 - Expand exception treatment
 - Performance improvements
 - Build and deploy Docker image on DockerHub
+- logs
