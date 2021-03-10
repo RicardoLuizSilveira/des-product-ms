@@ -1,18 +1,24 @@
 # Product Catalog
 [![Build Status](https://travis-ci.com/RicardoLuizSilveira/des-product-ms.svg?branch=main)](https://travis-ci.com/RicardoLuizSilveira/des-product-ms)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=RicardoLuizSilveira_des-product-ms&metric=bugs)](https://sonarcloud.io/dashboard?id=RicardoLuizSilveira_des-product-ms)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=RicardoLuizSilveira_des-product-ms&metric=coverage)](https://sonarcloud.io/dashboard?id=RicardoLuizSilveira_des-product-ms)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=RicardoLuizSilveira_des-product-ms&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=RicardoLuizSilveira_des-product-ms)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=RicardoLuizSilveira_des-product-ms&metric=security_rating)](https://sonarcloud.io/dashboard?id=RicardoLuizSilveira_des-product-ms)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=RicardoLuizSilveira_des-product-ms&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=RicardoLuizSilveira_des-product-ms)
+
 
 ## What is it?
 This is a **Spring Boot Application** that provides a bunch or endpoints to manage a product inventory.
 
 
-| HTTP verb  |  Resource path    |           Description           |
-|-------------|:-----------------:|------------------------------:|
-| POST        |  /products        |   Create a product       |
-| PUT         |  /products/{id}   |   Update a product   |
-| GET         |  /products/{id}   |   Find a product by ID  |
-| GET         |  /products        |   List all available products           |
-| GET         |  /products/search |   Find a specific product |
-| DELETE      |  /products/{id}   |   Delete a product       |
+| HTTP verb |  Resource path   |                 Description |
+| --------- | :--------------: | --------------------------: |
+| POST      |    /products     |            Create a product |
+| PUT       |  /products/{id}  |            Update a product |
+| GET       |  /products/{id}  |        Find a product by ID |
+| GET       |    /products     | List all available products |
+| GET       | /products/search |     Find a specific product |
+| DELETE    |  /products/{id}  |            Delete a product |
 
 For more detailed information about the endpoints check our
 <a href="https://des-product-ms.herokuapp.com/swagger-ui/#/product-controller" target="_blank">Online Swagger Documentation</a>
